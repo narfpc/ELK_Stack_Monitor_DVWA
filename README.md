@@ -3,11 +3,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Network Diagram](Diagrams_/RedTeam-Diagram.pdf)
+![ReadTeam-Diagram.pdf](https://github.com/narfpc/prjct-13/Diagrams_/ReadTeam-Diagram.pdf)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the container file may be used to install only certain pieces of it, such as Filebeat.
 
-![Filebeat installation](Ansible_/filebeat-install.yml)
+![filebeat-install.yml](https://github.com/narfpc/prjct-13/Ansible_/filebeat-install.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Path with the name of screenshot of docker ps output](images/dockerps.jpg)
+![prjct-13/images/dockerps.jpg](images/dockerps.jpg)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
