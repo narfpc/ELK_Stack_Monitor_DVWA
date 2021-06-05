@@ -3,11 +3,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Network Diagram](prjct-13/Diagrams_/RedTeam-Diagram.pdf)
+![Network Diagram](Diagrams_/RedTeam-Diagram.pdf)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the container file may be used to install only certain pieces of it, such as Filebeat.
 
-![Filebeat installation](prjct-13/Ansible_/filebeat-install.yml)
+![Filebeat installation](Ansible_/filebeat-install.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -64,11 +64,11 @@ For security precautions, SSH traffic to Jump Box and ELK servers are only acces
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automating configuration with Ansible makes it easily accessible.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Downloads and configures elk-docker container onto new VM
-- Installs packages: Docker.io; python3-pip
+- Installs packages: Docker.io, python3-pip
 - Enables the docker service on boot
-- Once completed, you're able to launch the elk-docker & deploy the ELK server.
+- Once completed, you're able to launch the elk-docker & deploy the ELK server
+- Data and log visualization through Kibana <elk-ip>:5106 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
