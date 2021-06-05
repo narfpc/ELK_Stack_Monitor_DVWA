@@ -64,7 +64,6 @@ For security precautions, SSH traffic to Jump Box and ELK servers are only acces
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automating configuration with Ansible makes it easily accessible.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Downloads and configures elk-docker container onto new VM
 - Installs packages: Docker.io; python3-pip
 - Enables the docker service on boot
