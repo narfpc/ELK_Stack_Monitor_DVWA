@@ -55,8 +55,8 @@ For security precautions, SSH traffic to Jump Box and ELK servers are only acces
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 20.52.104.42         |
-| ELK      | Yes                 | 20.52.104.42         |
+| Jump Box | Yes                 | localhost            |
+| ELK      | Yes                 | localhost            |
 
 
 ### Elk Configuration
