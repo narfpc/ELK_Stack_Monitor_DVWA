@@ -3,17 +3,14 @@
 
 The files in this repository were used to configure the network depicted below.
 
-<p align="center">
-  <img src="https://github.com/narfpc/DVWA-1/blob/main/Diagrams_/ReadTeam-Diagram.pdf" width="350" title="hover text">
-</p>
-
+![Diagram](ReadTeam-Diagram.pdf)
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the container file may be used to install only certain pieces of it, such as Filebeat.
 
 
 
-![Filebeat](https://github.com/narfpc/prjct-13/Ansible_/filebeat-install.yml)
+![Filebeat](filebeat-install.yml)
 
 This document contains the following details:
 - Description of the Topology
