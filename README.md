@@ -1,16 +1,6 @@
 ## DVWA-1
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
-
-![Diagram](https://github.com/narfpc/Ansible/blob/main/images/red-topol.png?raw=true)
-
-
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the container file may be used to install only certain pieces of it, such as Filebeat.
-
-
-![Filebeat](https://github.com/narfpc/Ansible/blob/main/images/filebeatt.PNG?raw=true)
-
 This document contains the following details:
 - Description of the Topology
 - Access Policies
@@ -18,6 +8,10 @@ This document contains the following details:
   - Beats in Use
   - Machines Being Monitored
 - How to Use the Ansible Build
+
+The files in this repository were used to configure the network depicted below.
+
+![Diagram](https://github.com/narfpc/Ansible/blob/main/images/red-topol.png?raw=true)
 
 ### Description of the Topology
 
@@ -28,6 +22,12 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - Filebeat logs information about the file system, including which files have been altered and when.
 - Metricbeat 
+
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the container file may be used to install only certain pieces of it, such as Filebeat.
+
+
+![Filebeat](https://github.com/narfpc/Ansible/blob/main/images/filebeatt.PNG?raw=true)
+
 
 The configuration details of each machine may be found below.
 +
