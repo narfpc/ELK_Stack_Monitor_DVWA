@@ -19,7 +19,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 - Load balancing ensures that the application will be highly efficient, in addition to restricting access to the network. Load balancers enhance security by distributing network traffic to prevent failure caused by overloading a specific resource, in addition to preventing possible DDos attacks. A jump box is used to connect to initially before any administrative task. They would be used to connect to specific servers or non-secure environments. 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the system.
 - Filebeat logs information about the file system, including which files have been altered and when.
 - Metricbeat 
 
